@@ -8,13 +8,13 @@
 ```sh
 git clone https://github.com/vhqkze/Python_tools.git
 ```
-1. 在`/usr/local/bin/`中创建`yd.py`的软链接
+2. 在`/usr/local/bin/`中创建`yd.py`的软链接
 ```bash
 sudo ln -s /pathtoyourfile/Python_tools/yd.py /usr/local/bin/yd
 ```
-2. 在终端中就可以直接使用`yd word`查询单词了。
-![样例](image/2019-03-11 231604.png)
-3. 与`bat`集成，在`~/.zshrc`文件末尾加上以下内容，然后使用`source ~/.zshrc`命令：
+3. 在终端中就可以直接使用`yd vocabulary`查询单词了。
+![样例](image/2019-03-11%20231604.png)
+4. 与`bat`集成，在`~/.zshrc`文件末尾加上以下内容，然后使用`source ~/.zshrc`命令：
 ```
 yd() {/usr/local/bin/yd "$1" | bat -p}
 ```
