@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # coding=UTF-8
 
 # 功能:在命令行中查询单词在有道词典网页版中的柯林斯释义
